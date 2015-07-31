@@ -5,7 +5,7 @@
 1. Practice defining a class
 2. Use macros to create setter and getter methods
 
-![dog cartoon](https://s3-us-west-2.amazonaws.com/web-dev-readme-photos/oo-labs/dog.jpg)
+![maru in a box](http://readme-pics.s3.amazonaws.com/tumblr_lm841mjEdz1qibxp4o1_500.jpg)
 
 ## Introduction
 
