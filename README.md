@@ -13,7 +13,7 @@ In this lab, you'll be creating a Cat class. Every instance of a Cat should have
 a name and be able to meow. In other words, I should be able to do:
 
 ```ruby
-maru = Dog.new
+maru = Cat.new
 maru.name = "Maru"
 
 maru.name
