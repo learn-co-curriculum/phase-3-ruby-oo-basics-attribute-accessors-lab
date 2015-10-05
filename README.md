@@ -20,7 +20,8 @@ maru.name
 # => "Maru"
 
 maru.meow
-# => "meow!"
+# "meow!"
+# => nil
 ```
 
 ## Instructions
