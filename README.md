@@ -13,14 +13,15 @@ In this lab, you'll be creating a Cat class. Every instance of a Cat should have
 a name and be able to meow. In other words, I should be able to do:
 
 ```ruby
-maru = Dog.new
+maru = Cat.new
 maru.name = "Maru"
 
 maru.name
 # => "Maru"
 
 maru.meow
-# => "meow!"
+# "meow!"
+# => nil
 ```
 
 ## Instructions
@@ -53,7 +54,7 @@ As you can see, the `.get_in_box` instance method on cat takes in an argument of
 Let's get started: 
 
 1. In the `lib` directory, make a file called `box.rb`. 
-2. In `lib/box.rb`, define your Box class. 
+2. In `lib/meowing_cat.rb`, define your Box class. 
 3. Create an `attr_accessor` in the Box class for size. 
 4. In the Cat class, make an `attr_accessor` for size. 
 5. In the Cat class, write a `get_in_box` instance method that takes in an argument of an instance of the Box class and checks to see if the cat is smaller than or equal to the box in size. If it is, the method should `puts` `"Meow! I'm in box"`, else, the method should `puts` `"Sad meow, I'm not in box"`. 
