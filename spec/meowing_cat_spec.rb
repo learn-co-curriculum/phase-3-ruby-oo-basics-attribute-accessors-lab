@@ -10,7 +10,8 @@ describe "Cat" do
   end
 
   it 'receives attr_accessor' do
-    expect(Cat).to receive(:attr_accessor)
+    expect(Cat).to receive(:attr_accessor).once
+    load('meowing_cat.rb')
   end
 
   it 'has a name' do
