@@ -9,6 +9,11 @@ describe "Cat" do
     expect(maru).to be_a(Cat)
   end
 
+  it 'receives attr_accessor' do
+    expect(Cat).to receive(:attr_accessor)
+    load('meowing_cat.rb')
+  end
+
   it 'has a name' do
     maru.name = "Maru"
     expect(maru.name).to eq("Maru")
