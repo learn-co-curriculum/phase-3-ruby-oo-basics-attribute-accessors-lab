@@ -5,7 +5,7 @@
 1. Practice defining a class
 2. Use macros to create setter and getter methods
 
-![maru in a box](http://readme-pics.s3.amazonaws.com/tumblr_lm841mjEdz1qibxp4o1_500.jpg)
+![Image by Dominic Albers from Pixabay](https://curriculum-content.s3.amazonaws.com/module-1/ruby-oo-fundamentals/attribute-accessors-lab/Image_137_CatInaBox%28B%29.jpg)
 
 ## Introduction
 
