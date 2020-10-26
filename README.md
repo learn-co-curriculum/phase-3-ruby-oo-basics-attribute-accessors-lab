@@ -32,4 +32,4 @@ Run the test suite to get started. You'll be writing all your code in the `lib/m
 2. Use the `attr_accessor` macro to create a setter and getter method for a cat's name.
 4. Write a method, `.meow`, that outputs "meow!" to the terminal using the `puts` method when called on an instance of Cat.
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/oo-meowing-cat' title='Meowing Cat'>Meowing Cat</a> on Learn.co and start learning to code for free.</p>
+
