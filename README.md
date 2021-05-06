@@ -183,7 +183,7 @@ attributes:
 
 With this code, we assign a name to an instance in the usual way, passing in the
 full name as the argument. Our custom setter method splits the full name into
-the first and last names and assigns them to the appropriate instance variables.
+the first and last names and assigns them to the corresponding instance variables.
 
 We can also create a custom getter method for `name` that will return the full
 name even though it is no longer stored in an instance variable:
@@ -226,7 +226,7 @@ jay_z.name
 ```
 
 With our custom setter and getter, we can still assign and return the full name,
-just as before. Furthermore, by adding the `attr_reader` for `first_name` and
+just as before. Furthermore, by adding the `attr_reader`s for `first_name` and
 `last_name`, we can also access the first and last names separately.
 
 ## Lab
