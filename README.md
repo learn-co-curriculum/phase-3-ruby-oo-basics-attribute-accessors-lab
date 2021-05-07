@@ -73,6 +73,10 @@ getter method for us*.
 The `attr_writer` macro, followed by the attribute name `:name`, *created a
 setter method for us*.
 
+**Note:** What we're actually doing in each of those two lines of code is
+calling a method. Ruby provides a bit of syntactic sugar that allows us to do
+`attr_reader :name` instead of `attr_reader(:name)`.
+
 We can now do the following, without explicitly defining a `.name` or `.name=`
 method ourselves:
 
