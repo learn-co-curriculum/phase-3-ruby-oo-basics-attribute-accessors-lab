@@ -233,6 +233,15 @@ With our custom setter and getter, we can still assign and return the full name,
 just as before. Furthermore, by adding the `attr_reader`s for `first_name` and
 `last_name`, we can also access the first and last names separately.
 
+**NOTE:** The example above also provides a good illustration of why it's a good
+idea to use instance methods rather than accessing instance variables directly.
+If, instead of using the `#name` getter, we had been calling the `@name`
+instance variable directly in multiple places in our code, we would then need to
+find all of those places and refactor our code to handle the separate
+`first_name` and `last_name` variables. By encapsulating our desired change in
+our custom setter and getter methods, we have ensured that we can continue to
+call our `#name` instance method without breaking our application.
+
 ## Lab
 
 ![Image by Dominic Albers from Pixabay](https://curriculum-content.s3.amazonaws.com/module-1/ruby-oo-fundamentals/attribute-accessors-lab/Image_137_CatInaBox%28B%29.jpg)
