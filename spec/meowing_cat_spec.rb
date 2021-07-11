@@ -20,6 +20,6 @@ describe "Cat" do
   end
 
   it "is able to meow" do
-    expect { maru.meow }.to output("meow!").to_stdout
+    expect { maru.meow }.to output(a_string_matching("meow!")).to_stdout
   end
 end
